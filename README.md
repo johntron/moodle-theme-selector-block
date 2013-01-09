@@ -1,7 +1,7 @@
 Moodle theme selector (block)
 ===========================
 
-A block to quickly change themes. Great for theme developers! Requires the [jQuery Moodle plugin](ttps://github.com/johntron/moodle-jquery-plugin).
+A block to quickly change themes. Great for theme developers! Requires the [jQuery Moodle plugin](https://github.com/johntron/moodle-jquery-plugin).
 
 Installation
 ============
