@@ -4,7 +4,7 @@ $(function() {
         var params = {
             'sesskey': $select.data('sesskey'),
             'device': $select.data('device'),
-            'choose': $select.selected().val()
+            'choose': $select.find(':selected').val()
         };
         window.location = '/theme/index.php?' + $.param(params);
     });
