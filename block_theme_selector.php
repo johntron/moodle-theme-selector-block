@@ -35,7 +35,7 @@ class block_theme_selector extends block_base
             $this->content->text .= '<br />';
 
             // Add a button to reset theme caches
-            $this->content->text .= html_writer::start_tag('form', array('action' => new moodle_url('theme/index.php'), 'method' => 'post'));
+            $this->content->text .= html_writer::start_tag('form', array('action' => new moodle_url('/theme/index.php'), 'method' => 'post'));
             $this->content->text .= html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'sesskey', 'value' => sesskey()));
             $this->content->text .= html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'reset', 'value' => '1'));
             $this->content->text .= html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'device', 'value' => 'default'));
